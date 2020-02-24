@@ -17,6 +17,7 @@ spec:
       containers:
       - name: add
         image: ddeka0/add-service:v1.0
+        imagePullPolicy: Never
         ports:
         - name: add-service
           containerPort: 3000

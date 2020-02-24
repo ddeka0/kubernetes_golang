@@ -17,6 +17,7 @@ spec:
       containers:
         - name: api
           image: ddeka0/api-service:v1.0
+          imagePullPolicy: Never
           ports:
             - name: api-service
               containerPort: 8080
